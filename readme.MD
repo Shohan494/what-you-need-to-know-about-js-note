@@ -18,7 +18,7 @@ page is a walk in the park using JavaScript.
 - Using JavaScript, you can pass requests to a backend server and handle
 responses without reloading the page.
 
-#### Variables
+#### Variables, mathematical operations and string concatenation
 
 A variable can be declared and given a value in two separate steps, which are
 displayed as follows:
@@ -47,6 +47,32 @@ to escape them.
 > While others prefer to use single quotes, the principle that should be followed is this:
 if you need to use one form of quote in the string, you might want to use the other
 one as the literal.
+
+#### Arrays and objects
+
+You can easily create an object variable with properties.
+Using this approach, you can think of an object as a thing. For example, let's create an
+object variable named dog with three properties: color , age , and breed , as follows:
+```
+var dog= {color: 'Brown', age: 4, breed: 'Boxer'};
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
