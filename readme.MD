@@ -172,6 +172,46 @@ var greeting = `Hi! This
 is a wonderful day, isn't it?`;
 ```
 
+For example, let's define an object variable named person , as follows:
+
+```
+var person = {name: "Gabriel", age: "33", profession: "developer",
+saySomething: function msg(d){return "This is my message: " + d}
+};
+```
+
+With ECMAScript 5, the following line returns a personal presentation:
+
+```
+console.log("My name is " + person.name + " and I'm a " +
+person.profession + ". " + person.saySomething("Happy Tuesday!"));
+```
+
+Whereas, in ECMAScript 6, template strings allow to output the same presentation
+with the following:
+
+```
+console.log(`My name is ${person.name} and I'm a
+${person.profession}. ${person.saySomething("Happy Tuesday!")}`);
+```
+
+This is much shorter and easier to read.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
