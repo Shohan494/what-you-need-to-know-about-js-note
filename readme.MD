@@ -17,3 +17,33 @@ page is a walk in the park using JavaScript.
 
 - Using JavaScript, you can pass requests to a backend server and handle
 responses without reloading the page.
+
+#### Variables
+
+A variable can be declared and given a value in two separate steps, which are
+displayed as follows:
+
+```
+var myTeam;
+myTeam = 'Chicago Bulls';
+```
+
+They can also be given a value in a single step, as follows:
+
+```
+var myTeam = 'Chicago Bulls';
+```
+
+> JavaScript allows us to declare variables without the var keyword (the variable will
+be global). Anyway, this practice is not recommended, and most developers will
+advise against it and think that it should be deprecated.
+
+
+
+
+
+
+
+
+
+
