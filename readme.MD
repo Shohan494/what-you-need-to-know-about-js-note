@@ -38,7 +38,15 @@ var myTeam = 'Chicago Bulls';
 be global). Anyway, this practice is not recommended, and most developers will
 advise against it and think that it should be deprecated.
 
+> When building a string variable as the result of the concatenation of two or more
+values, it is recommended that you be consistent with the use of single or double
+quotes. Many JavaScript developers prefer to use double quotes to enclose string
+values as this allows you to use single quotes within the variable without the need
+to escape them.
 
+> While others prefer to use single quotes, the principle that should be followed is this:
+if you need to use one form of quote in the string, you might want to use the other
+one as the literal.
 
 
 
