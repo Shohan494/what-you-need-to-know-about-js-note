@@ -155,9 +155,22 @@ the reference inside <script> tags as indicated in the following:
 
 #### Getting Started with ECMAScript 6
 
-Template strings
+###### Template strings
+For this type of example as below:
 
+in ECMAScript 5 you would use backslashes, as follows:
 
+```
+var greeting = "Hi! This \
+is a wonderful day, isn't it?";
+```
+
+In ECMAScript 6, you can write much cleaner code:
+
+```
+var greeting = `Hi! This
+is a wonderful day, isn't it?`;
+```
 
 
 
