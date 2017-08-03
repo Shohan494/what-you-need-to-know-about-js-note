@@ -53,10 +53,42 @@ one as the literal.
 You can easily create an object variable with properties.
 Using this approach, you can think of an object as a thing. For example, let's create an
 object variable named dog with three properties: color , age , and breed , as follows:
+
 ```
 var dog= {color: 'Brown', age: 4, breed: 'Boxer'};
 ```
 
+You can then query the object variable as a whole or each property using the dot
+notation (the object name followed by a dot and the property name):
+
+```
+dog;
+dog.color;
+dog.age;
+dog.breed;
+```
+
+> Properties cannot only be fixed values, but they can also be methods that represent
+an action that is associated with the object. Using the dog object, let's redefine it and
+add a method property called bark :
+
+```
+var dog= {
+color: 'Brown',
+age: 4,
+breed: 'Boxer',
+bark: function(){
+console.log('Guau guau')
+}
+};
+```
+
+A method property can be invoked like a regular property as explained previously,
+and then followed by a set of parentheses that denote an action:
+
+```
+dog.bark();
+```
 
 
 
