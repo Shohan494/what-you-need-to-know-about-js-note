@@ -90,14 +90,68 @@ and then followed by a set of parentheses that denote an action:
 dog.bark();
 ```
 
+#### Functions
+
+You can think of a JavaScript function as a procedure that performs a task, manipulates
+variables, and calculates a result.
 
 
+#### Libraries
 
+> In order to provide more complex functionality with little extra effort, you can
+combine JavaScript statements and functions into a single file that is invoked in
+a web page. These files use the .js (for JavaScript) extension, and they are called
+libraries.
 
+Save the following code into a file named test.js :
 
+```
+/* Function declaration
+====================
 
+The SayHi project requires 3 parameters: your name , age , and profession
+(in that order).
+In the function definition, these three parameters are named a , b , and c .
+The function returns a greeting using these values:
+*/
 
+function SayHi(a,b,c){
+var person = {name: a, age: b, profession: c};
+return 'My name is ' + person.name + ' and am ' + person.age + '
+years old. I am a ' + person.profession + '.';
+}
 
+/* Object definition
+=================
+
+The introducingMyself object is an object variable that gets the first h3 element
+in the document. This element has a property called textContent where we will
+display the result of calling SayHi with the following indicated parameters:
+*/
+
+var introducingMyself = document.querySelector('h3');
+introducingMyself.textContent = SayHi('Gabriel', 33,
+'programmer');
+```
+
+We will then create a file named index.html in the same directory where you saved
+test.js . Note that, in order to reference the external file test.js , you need to place
+the reference inside <script> tags as indicated in the following:
+
+```
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+<meta charset = "UTF-8">
+<title>Chapter 1</title>
+</head>
+<body>
+<h1>First example</h1>
+<h3></h3>
+<script src="test.js"></script>
+</body>
+</html>
+```
 
 
 
