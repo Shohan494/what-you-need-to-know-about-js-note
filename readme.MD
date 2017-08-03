@@ -1,6 +1,8 @@
 ## What You Need To Know About JavaScript
+###### Collection of key points and notes on this book
 
-#### Some common uses of JavaScript:
+#### Some common uses of JavaScript
+
 - If you need to create a contact form where some fields are required, you can
 rely on JavaScript to alert the user if he has missed some of these fields and
 to validate or sanitize their contents. You don't have to rely on alert windows
