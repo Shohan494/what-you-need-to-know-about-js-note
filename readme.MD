@@ -155,7 +155,7 @@ the reference inside <script> tags as indicated in the following:
 
 #### Getting Started with ECMAScript 6
 
-
+Template strings
 
 
 
